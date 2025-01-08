@@ -57,7 +57,7 @@ class MultiHeadLatentAttention(nn.Module):
     kv are low ranks, this verient of attention project q,k,v to low rank to save memory,
     replace linear with lora(ish) layers
 
-    source: https://github.com/joey00072/MLA
+    source: https://github.com/joey00072/Multi-Head-Latent-Attention-MLA-
     """
     def __init__(self, config: Config):
         super().__init__()
